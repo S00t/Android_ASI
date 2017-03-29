@@ -27,4 +27,19 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.2.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
     testCompile 'junit:junit:4.12'
+    // RX JAVA
+    compile 'io.reactivex:rxjava:1.1.6'
+    compile 'io.reactivex:rxandroid:1.2.0'
+    compile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+    // Retrofit + OkHttp
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:converter-scalars:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    // Dagger
+    compile 'com.google.dagger:dagger:2.7'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.7'
+    //stheto
+    compile 'com.facebook.stetho:stetho:1.4.2'
+    compile 'com.facebook.stetho:stetho-okhttp3:1.4.2'
 }
