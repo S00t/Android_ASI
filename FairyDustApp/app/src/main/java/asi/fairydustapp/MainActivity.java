@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void StartNewActivity() {
-        Intent intent = new Intent(this, FormActivity.class);
+        Intent intent = new Intent(this, FormActivity.class); //do intent skad do kad
         startActivity(intent);
     }
 

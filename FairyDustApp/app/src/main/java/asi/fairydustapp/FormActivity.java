@@ -1,5 +1,6 @@
 package asi.fairydustapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -25,5 +26,9 @@ public class FormActivity extends AppCompatActivity {
     @OnClick(R.id.send_button)
     public void Count(){
         Toast.makeText(this, "Wysylamy wiadomosc",Toast.LENGTH_LONG).show();
+    private void StartNewActivity() {
+        Intent intent = new Intent(this, Main32.class);
+        startActivity(intent);
+    }
     }
 }
